@@ -1,0 +1,21 @@
+Host: ftp.ord1-1.websitesettings.com
+
+FTP Username:	bppdown3r
+FTP Password:	bLuep!epR@D24u$a
+
+db username password
+https://mysql.lan3-1.websitesettings.com/?pma_username=987392_down3rcms&server=mariadb-117.wc1
+username: 987392_down3rcms
+Password: Bluepie242424
+
+STAGING SITE CREDENTIALS:
+
+https://162.242.197.160/login_up.php?success_redirect_url=%2F
+username: bppstaging22
+password: Bluepie24242$
+
+https://162.242.197.160
+localhost:3306 (default for MariaDB, v5.5.68)
+database name: bluepiestaging
+user name : bluepiestaging
+password : Bluepie24242$

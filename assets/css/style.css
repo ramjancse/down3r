@@ -1,0 +1,136 @@
+@font-face {
+  font-family: SwitzerSemibold;
+  src: url(../fonts/Switzer-Semibold.ttf);
+}
+@font-face {
+  font-family: SwitzerBold;
+  src: url(../fonts/Switzer-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "SwitzerSemibold";
+  font-size: 18px;
+  background-color: black;
+  color: #fff;
+}
+html {
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.custom-menu-font {
+  font-family: "SwitzerSemibold";
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.padding-container {
+  margin: 0;
+  padding: 0;
+}
+.cust-nav-bg {
+  background-color: #000000;
+}
+
+.cust-nav-bg-mobile {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-nav-position {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: -1px;
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 20%;
+  right: 10px;
+  z-index: 333;
+}
+.social-icons-bottom {
+  display: flex;
+  flex-direction: row;
+  z-index: 333;
+  align-items: center;
+  justify-content: center;
+}
+.icon-width {
+  width: 40px;
+}
+
+.icon-hover {
+  cursor: pointer;
+}
+
+.album-title-hover {
+  color: #fff;
+}
+
+.single-image-style {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.bio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.bio-text {
+  font-family: "SwitzerSemibold";
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 20px;
+}
+.gig-text {
+  color: #fff;
+  font-family: "SwitzerSemibold";
+  font-size: 22px;
+}
+.gig-table-title {
+  text-align: left;
+}
+.title {
+  font-family: "SwitzerBold";
+  font-size: 24px;
+}
+.sub-title {
+  font-family: "SwitzerBold";
+  font-size: 18px;
+}
+.press-text {
+  font-family: "SwitzerBold";
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 20px;
+}
+.marginY {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.margin-back {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.margin-right {
+  margin-right: 10px;
+}
+@media (max-width: 991px) {
+  .gig-text {
+    color: #fff;
+    font-family: "SwitzerSemibold";
+    font-size: 14px;
+  }
+}
